@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662101808108",
+    "firebase_url": "https://ayurveda2-a743e.firebaseio.com",
+    "project_id": "ayurveda2-a743e",
+    "storage_bucket": "ayurveda2-a743e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662101808108:android:835cdcb75095a56bf5a6c9",
+        "android_client_info": {
+          "package_name": "com.example.ayurveda2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662101808108-8voef31lopom34d88o436kf9fbusagj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqkmjL03oYqtX-Azi18N0Xwz8s3A5qdCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662101808108-8voef31lopom34d88o436kf9fbusagj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

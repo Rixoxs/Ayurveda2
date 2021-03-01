@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texturahoja"
+    tools:context=".MainActivity14">
+
+    <TextView
+        android:id="@+id/txtScore2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fondo"
+        android:text="@string/txtscore2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtScore3"
+        app:layout_constraintStart_toEndOf="@+id/txtScore1"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup13" />
+
+    <TextView
+        android:id="@+id/txt34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/abeezee"
+        android:text="@string/txt34"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt35"
+        android:layout_width="366dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/abeezee"
+        android:text="@string/txt35"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/txt36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt34" />
+
+    <TextView
+        android:id="@+id/txt36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/abeezee"
+        android:text="@string/txt36"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt35" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="363dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt36">
+
+        <RadioButton
+            android:id="@+id/radioButton43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton43" />
+
+        <RadioButton
+            android:id="@+id/radioButton44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton44" />
+
+        <RadioButton
+            android:id="@+id/radioButton45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton45" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="213dp"
+        android:fontFamily="@font/abeezee"
+        android:text="@string/txt37"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup13"
+        android:layout_width="363dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt37">
+
+        <RadioButton
+            android:id="@+id/radioButton46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton46" />
+
+        <RadioButton
+            android:id="@+id/radioButton47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton47" />
+
+        <RadioButton
+            android:id="@+id/radioButton48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton48" />
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/testImageButton0"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/iconoflecha"
+        android:contentDescription="@string/testimageButton0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtScore3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup13" />
+
+    <TextView
+        android:id="@+id/txtScore1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/fondo"
+        android:text="@string/txtscore1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtScore2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup13" />
+
+    <TextView
+        android:id="@+id/txtScore3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fondo"
+        android:text="@string/txtscore3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/testImageButton0"
+        app:layout_constraintStart_toEndOf="@+id/txtScore2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup13" />
+</androidx.constraintlayout.widget.ConstraintLayout>

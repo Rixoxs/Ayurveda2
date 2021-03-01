@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtforo1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/cajatexto_tituloforo"
+        android:hint="@string/forotitulo1"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/txtforo2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo1"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:padding="5dp"
+        android:hint="@string/txtforo3"/>
+
+    <TextView
+        android:id="@+id/txtforo4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo2"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cajatexto_tituloforo"
+        android:hint="@string/forotitulo2"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/txtforo6"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo5"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo7"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo6"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo8"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo8"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo9"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo9"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo10"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo10"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cajatexto_tituloforo"
+        android:hint="@string/forotitulo3"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/txtforo12"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo11"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo13"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo12"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo14"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo13"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo15"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cajatexto_tituloforo"
+        android:hint="@string/forotitulo4"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/txtforo16"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo14"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo17"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo15"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo18"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo16"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo19"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo17"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo20"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo18"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo21"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo19"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo22"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo20"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo23"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo21"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txtforo24"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/txtforo22"
+        android:padding="5dp" />
+
+  </LinearLayout>
+</ScrollView>

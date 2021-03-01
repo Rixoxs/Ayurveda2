@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/messagelistview_shape">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="33dp"
+        android:layout_height="33dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fotoforos"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/profilefoto"
+        app:civ_border_color="@color/divider"
+        app:civ_border_width="2dp" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <TextView
+        android:id="@+id/messageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="65dp"
+        android:layout_toLeftOf="@+id/deleteMessageButton"
+        android:layout_toStartOf="@+id/deleteMessageButton"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/deleteMessageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="18dp"
+        android:contentDescription="@string/deleteMessage"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+    <TextView
+        android:id="@+id/messageSenderTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/messageTimeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/messageSenderTV"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/messageDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@id/messageTimeTV"
+        android:textStyle="bold"
+        android:text="" />
+</RelativeLayout>
