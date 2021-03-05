@@ -55,7 +55,7 @@ public class MainActivity8 extends AppCompatActivity {
     Button button1;
 
     String user= "diegogonzalez80456@gmail.com";
-    String password = "dagvlb08";
+    String password = "";
     String email = "diegogonzalez804@hotmail.com";
     String Nombre, Correo, Asunto, Texto;
     GmailSender sender;
